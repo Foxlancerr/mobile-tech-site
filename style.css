@@ -9,6 +9,9 @@ button{
     border: none;
     padding: 8px 16px; 
 }
+p{
+    line-height: 20px;
+}
 header{
     padding: 40px 0px;
 }
@@ -56,23 +59,43 @@ header:nth-child(2){
     justify-content: center;
 }
 .middle{
-    background-color: yellow;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 10px;
 }
 .middle h1{
-    font-size: 3.5rem;
+    color: #05ccbb;
+    font-weight: 300;
+    font-size: 3rem;
     margin-bottom: 5px;
     text-align: center;
 }
 .middle h2{
-    font-size: 1.5rem;
+    color: white;
+    font-weight: 200;
+    font-size: 1.2rem;
     text-align: center;
     margin-bottom:5px;
 }
 .middle p{
+    color: white;
     font-size: 1rem;
     text-align: center;
+}
+
+header:nth-child(3) .middle{
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    justify-content: center;
+}
+header:nth-child(3) .middle .child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header:nth-child(3) .middle p{
+    color: black;
+    width: 70%;
+    text-align: center;
+   margin-bottom: 10px;
 }
