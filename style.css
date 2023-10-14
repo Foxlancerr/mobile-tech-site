@@ -1,101 +1,147 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-button{
-    background: none;
-    outline: none;
-    border: none;
-    padding: 8px 16px; 
+button {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
 }
-p{
-    line-height: 20px;
+p {
+  line-height: 20px;
 }
-header{
-    padding: 40px 0px;
+header {
+  padding: 40px 0px;
 }
-header:nth-child(even){
-    background: red;
+header:nth-child(even) {
+  background-image: url("./assets/images/background.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.btn{
-    background-color: blue;
-    color:white;
-    border-radius:50px;
+.btn {
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
 }
-.container{
-    width: 70vw;
-    margin: 0 auto;
+.container {
+  width: 70vw;
+  margin: 0 auto;
 }
-.left-top-section{
-    display: flex;
-    justify-content: space-between;
+.left-top-section {
+  display: flex;
+  justify-content: space-between;
 }
-.left-top-section .contents{
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
+.left-top-section .contents {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
 }
-.left-top-section .contents h1{
-    margin-bottom: 10px;
+.left-top-section .contents h1 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: 200;
 }
-.left-top-section .contents p{
-    line-height: 20px;
-    margin-bottom: 10px;
+.left-top-section .contents p {
+  line-height: 20px;
+  margin-bottom: 10px;
 }
-.image img{
-    width: 170px;
+.image img {
+  width: 170px;
 }
-header:nth-child(2){
-    background-image: url("./assets/images/background.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header:nth-child(2) {
+  background-image: url("./assets/images/background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.middle{
-    display: flex;
-    justify-content: space-between;
+.middle {
+  display: flex;
+  justify-content: space-between;
 }
-.middle h1{
-    color: #05ccbb;
-    font-weight: 300;
-    font-size: 3rem;
-    margin-bottom: 5px;
-    text-align: center;
+.middle h1 {
+  color: #05ccbb;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 5px;
+  text-align: center;
 }
-.middle h2{
-    color: white;
-    font-weight: 200;
-    font-size: 1.2rem;
-    text-align: center;
-    margin-bottom:5px;
+.middle h2 {
+  color: white;
+  font-weight: 200;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 5px;
 }
-.middle p{
-    color: white;
-    font-size: 1rem;
-    text-align: center;
+.middle p {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
 }
 
-header:nth-child(3) .middle{
-    display: flex;
-    align-items: center;
-    background-color: yellow;
-    justify-content: center;
+header:nth-child(3) {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-header:nth-child(3) .middle .child{
+header:nth-child(3) .middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header:nth-child(3) .middle .child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header:nth-child(3) .middle p {
+  color: black;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+header:nth-child(3) .middle h1{
+  color: black;
+  margin-bottom: 10px;
+}
+
+header:nth-child(4) .middle h1{
+    margin-bottom: 10px;
+}
+
+header:nth-child(4) .middle{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 30px;
 }
-header:nth-child(3) .middle p{
-    color: black;
-    width: 70%;
-    text-align: center;
-   margin-bottom: 10px;
+
+header:nth-child(4) .middle .child:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+header:nth-child(4) .middle .child:nth-child(2) div{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+}
+header:nth-child(4) .middle .child:nth-child(2) div h1{
+   font-size: 1rem;
+}
+header:nth-child(4) .middle .child a{
+    color: white;
 }
