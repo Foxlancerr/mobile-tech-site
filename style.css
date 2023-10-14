@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 button {
   background: none;
@@ -41,9 +42,8 @@ header:nth-child(even) {
   justify-content: center;
 }
 .left-top-section .contents h1 {
-  margin-bottom: 10px;
   font-size: 2.5rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 .left-top-section .contents p {
   line-height: 20px;
